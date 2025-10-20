@@ -1,0 +1,19 @@
+# Python dependencies for benchmarking and testing
+
+# Core dependencies (required for Python bindings)
+numpy>=1.19.0
+pybind11>=2.6.0
+
+# Benchmarking dependencies (optional)
+opencv-python>=4.5.0
+matplotlib>=3.3.0
+
+# GPU frameworks for comparison (optional, install based on CUDA version)
+# cupy-cuda11x>=10.0.0  # For CUDA 11.x
+# cupy-cuda12x>=12.0.0  # For CUDA 12.x
+# torch>=1.10.0         # PyTorch with CUDA support
+
+# Development dependencies (optional)
+pytest>=6.0.0
+black>=21.0
+flake8>=3.9.0

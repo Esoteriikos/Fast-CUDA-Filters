@@ -1,0 +1,64 @@
+# Build directories
+build/
+cmake-build-*/
+dist/
+*.egg-info/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+
+# C++
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.i
+*.ii
+*.gpu
+*.ptx
+*.cubin
+*.fatbin
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Output files
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.avi
+
+# Logs
+*.log
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Nsight
+*.ncu-rep
+*.nsys-rep
+*.qdrep
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
